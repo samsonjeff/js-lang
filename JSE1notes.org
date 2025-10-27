@@ -62,6 +62,42 @@ Receives value from another variable using its variable name
 Changes the behavior of the interpreter and follows modern JavaScript standards
 - Must be used at the beginning of the code
 
+
+*** Curly bracket/ program block
+inside of it we can declare values even the previous variable has no values
+- declaring "variable" inside the block: it will only matter inside the block
+- Global: Variable outside the block is global
+- Local: out it we called local
+- The local can read the Global, but the Global cannot read the local
+	- simple declaration, but this technique will not work in function
+	- variable "var" is different it can use everywhere (inside & outside)
+	- but sometimes local depend on situation
+
+#+BEGIN_SRC javascript
+var globalGreeting = "Good ";
+   
+function testFunction() {
+    var localGreeting = "Morning ";
+    console.log("function:");
+    console.log(globalGreeting);
+    console.log(localGreeting);
+}
+   
+testFunction();
+   
+console.log("main program:");
+console.log(globalGreeting);
+console.log(localGreeting); // -> Uncaught ReferenceError: localGreeting is not defined
+#+END_SRC
+
+*** Functions: Certain piece code that perform specific task
+- parentheses: can contain parameters passed to the function
+- mote use program block
+
+
+
+
+
 -----
 
 ** Introduction to JavaScript and Computer Programming
