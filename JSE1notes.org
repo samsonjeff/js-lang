@@ -1,4 +1,4 @@
-* js-lang notes (CISCO JSE 1)
+* js-lang notes (JSE 1)
 
 ** Module 1
 
