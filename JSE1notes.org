@@ -69,7 +69,7 @@ inside of it we can declare values even the previous variable has no values
 - Global: Variable outside the block is global
 - Local: out it we called local
 - The local can read the Global, but the Global cannot read the local
-	- simple declaration, but this technique will not work in function
+	- Can also be "Local" by simply declaration, but this technique will not work in function
 	- variable "var" is different it can use everywhere (inside & outside)
 	- but sometimes local depend on situation
 
