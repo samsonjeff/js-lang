@@ -1,4 +1,4 @@
-* js-lang notes (JSE 1)
+* js-lang notes (JSE1)
 
 ** Module 1
 
@@ -62,6 +62,15 @@ Receives value from another variable using its variable name
 Changes the behavior of the interpreter and follows modern JavaScript standards
 - Must be used at the beginning of the code
 
+** Introduction to JavaScript and Computer Programming
+
+About JavaScript (how to communicate with the computer, what is JS, advantages and limitations of JS, where is JS used today)  
+Setting up the programming environment (development tools, online development environment, local development environment)  
+First JS program – Hello, World! (a few words about HTML, how to run your JavaScript code, executing the code directly in the console)
+
+-----
+
+** Module 2
 
 *** Curly bracket/ program block
 inside of it we can declare values even the previous variable has no values
@@ -94,21 +103,13 @@ console.log(localGreeting); // -> Uncaught ReferenceError: localGreeting is not 
 - parentheses: can contain parameters passed to the function
 - mote use program block
 
+*** Variable shadowing
+only the "var" type variable/data is affected on variable shadowing.
+
+*** Hoisting
+to be continued....
 
 
-
-
------
-
-** Introduction to JavaScript and Computer Programming
-
-About JavaScript (how to communicate with the computer, what is JS, advantages and limitations of JS, where is JS used today)  
-Setting up the programming environment (development tools, online development environment, local development environment)  
-First JS program – Hello, World! (a few words about HTML, how to run your JavaScript code, executing the code directly in the console)
-
------
-
-** Module 2
 
 Variables, Data Types, Type Casting, and Comments  
 Variables (naming, declaring and initializing variables, declarations and strict mode, changing variable values, constants, scope)  
