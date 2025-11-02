@@ -3,12 +3,12 @@
 var weight;
 var height = 180;
 
-console.log(height);
-console.log(weight);
+console.log(height); // -> 180
+console.log(weight); // -> undefined
 
-var weight = 20;
-console.log(weight);
-console.log(height);
+weight = 20;
+console.log(weight); // -> 20
+console.log(height); // -> 180
 
 // this is not included only the example code above
 var BMI = weight / (height * height);
