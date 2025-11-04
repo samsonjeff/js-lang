@@ -107,7 +107,28 @@ console.log(localGreeting); // -> Uncaught ReferenceError: localGreeting is not 
 only the "var" type variable/data is affected on variable shadowing.
 
 *** Hoisting
-to be continued....
+Ex. How hoisting works
+
+#+BEGIN_SRC javascript
+var Name = "Maxwell Wright";
+var Phone = "(0191) 719 6495";
+var Email = "Curabitur.egestas.nunc@nonummyac.co.uk";
+var profile0 = Name + Phone + Email;
+
+Name = "Raja Villarreal";
+Phone = "0866 398 2895";
+Email = "posuere.vulputate@sed.com";
+var profile1 = Name + Phone + Email;
+
+Name = "Hele Richards";
+Phone = "0800 1111";
+Email = "libero@convallis.edu";
+var profile2 = Name + Phone + Email;
+
+console.log(profile0);
+console.log(profile1);
+console.log(profile2);
+#+END_SRC
 
 
 
