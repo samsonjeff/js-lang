@@ -130,6 +130,10 @@ console.log(profile1);
 console.log(profile2);
 #+END_SRC
 
+*** Data Type
+javascript data type are divided into two
+- primitive (or simple): numbers, string, character
+- complex (or composite): ex. arrays, object
 
 
 Variables, Data Types, Type Casting, and Comments  
