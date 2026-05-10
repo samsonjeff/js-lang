@@ -11,3 +11,12 @@ console.log('test'.slice(1,  3));  //  ->  'es'
    
 console.log(str.split('  '));  //  ->  ['java',  'script',  'language']
 console.log('192.168.1.1'.split('.'));    //  ->  ['192',  '168',  '1',  '1']
+
+// null data type
+let  someResource;
+console.log(someResource);  //  ->  undefined
+console.log(typeof  someResource);  //  ->  undefined
+   
+someResource  =  null;
+console.log(someResource);  //  ->  null
+console.log(typeof  someResource);  //  ->  object
