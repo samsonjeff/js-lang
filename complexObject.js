@@ -101,6 +101,9 @@ users[2]  =  {
     email:  "IreneHPurnell@rhyta.com"
 }
 
-console.log(users[0].name);  //  ->  Calvin
+delete users[0];
+
+console.log(typeof users);
+console.log(typeof users[0]); // -> undefined
 console.log(users[1].age);  //  ->  21
 console.log(`Hi my name is ${users[2].name} I am ${users[2].age} years old.`);  //  ->  Irene
