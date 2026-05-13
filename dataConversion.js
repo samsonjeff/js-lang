@@ -152,3 +152,12 @@ console.log(`${s3} [${typeof s3}]`);    // -> 100true [string]
 console.log(`${s4} [${typeof s4}]`);    // -> abc200 [string]
 console.log(`${s5} [${typeof s5}]`);    // -> abc200 [string]
 console.log(`${s6} [${typeof s6}]`);    // -> abctrue [string]
+
+//type casting
+const str1 = 42 + +"1";
+const str2 = 42 + Number("1");
+const str3 = 42 + parseInt("1");
+
+console.log(str1)
+console.log(str2)
+console.log(str3)
